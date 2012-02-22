@@ -68,18 +68,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/charge/proprietary/lib/libril.so:system/lib/libril.so
 
 #
-# samsung crap needed for ril libraries
-#
-PRODUCT_COPY_FILES += \
-    vendor/samsung/charge/proprietary/bin/netd:system/bin/netd \
-    vendor/samsung/charge/proprietary/lib/libnetutils.so:system/lib/libnetutils.so \
-    vendor/samsung/charge/proprietary/lib/libwlbrcmp2papp.so:system/lib/libwlbrcmp2papp.so \
-    vendor/samsung/charge/proprietary/lib/libwldhcp.so:system/lib/libwldhcp.so \
-    vendor/samsung/charge/proprietary/lib/libwlp2p.so:system/lib/libwlp2p.so \
-    vendor/samsung/charge/proprietary/lib/libwlwpscli.so:system/lib/libwlwpscli.so \
-    vendor/samsung/charge/proprietary/lib/libwlwps.so:system/lib/libwlwps.so
-
-#
 # GPS
 #
 PRODUCT_COPY_FILES += \

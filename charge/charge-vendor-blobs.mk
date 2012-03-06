@@ -72,6 +72,7 @@ PRODUCT_COPY_FILES += \
 #
 PRODUCT_COPY_FILES += \
     vendor/samsung/charge/proprietary/bin/gpsd:system/bin/gpsd \
+    vendor/samsung/charge/proprietary/etc/gps.conf:system/etc/gps.conf \
     vendor/samsung/charge/proprietary/lib/hw/gps.s5pc110.so:system/lib/hw/gps.s5pc110.so
 
 #

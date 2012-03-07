@@ -79,7 +79,7 @@ PRODUCT_COPY_FILES += \
 # bluetooth
 #
 PRODUCT_COPY_FILES += \
-    vendor/samsung/charge/proprietary/bin/BCM4329B1_002.002.023.0746.0818.hcd:system/bin/BCM4329B1_002.002.023.0746.0818.hcd
+    vendor/samsung/charge/proprietary/vendor/firmware/bcm4329.hcd:system/vendor/firmware/bcm4329.hcd
 
 #
 # Files for battery charging screen

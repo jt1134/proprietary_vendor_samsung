@@ -52,8 +52,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/charge/proprietary/bin/geomagneticd:system/bin/geomagneticd \
     vendor/samsung/charge/proprietary/bin/orientationd:system/bin/orientationd \
     vendor/samsung/charge/proprietary/lib/hw/sensors.s5pc110.so:system/lib/hw/sensors.s5pc110.so \
-    vendor/samsung/charge/proprietary/lib/libsensor_yamaha_test.so:system/lib/libsensor_yamaha_test.so \
-    vendor/samsung/charge/proprietary/lib/hw/lights.s5pc110.so:system/lib/hw/lights.s5pc110.so
+    vendor/samsung/charge/proprietary/lib/libsensor_yamaha_test.so:system/lib/libsensor_yamaha_test.so
 
 #
 # RIL

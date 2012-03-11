@@ -19,27 +19,13 @@ PRODUCT_COPY_FILES := \
     vendor/samsung/infuse4g/proprietary/libsecril-client.so:obj/lib/libsecril-client.so
 
 PRODUCT_COPY_FILES += \
-    vendor/samsung/infuse4g/proprietary/pvrsrvinit:system/vendor/bin/pvrsrvinit \
     vendor/samsung/infuse4g/proprietary/bcm4330_mfg.bin:system/vendor/firmware/bcm4330_mfg.bin \
     vendor/samsung/infuse4g/proprietary/bcm4330_sta.bin:system/vendor/firmware/bcm4330_sta.bin \
     vendor/samsung/infuse4g/proprietary/BCM4330B1_002.001.003.0043.0061.hcd:system/bin/BCM4330B1_002.001.003.0043.0061.hcd \
     vendor/samsung/infuse4g/proprietary/nvram_net.txt:system/vendor/firmware/nvram_net.txt \
     vendor/samsung/infuse4g/proprietary/melfas_touchkey.kcm.bin:system/vendor/firmware/melfas_touchkey.kcm.bin \
-    vendor/samsung/infuse4g/proprietary/libGLES_android.so:system/lib/egl/libGLES_android.so \
-    vendor/samsung/infuse4g/proprietary/libEGL_POWERVR_SGX540_120.so:system/vendor/lib/egl/libEGL_POWERVR_SGX540_120.so \
-    vendor/samsung/infuse4g/proprietary/libGLESv1_CM_POWERVR_SGX540_120.so:system/vendor/lib/egl/libGLESv1_CM_POWERVR_SGX540_120.so \
-    vendor/samsung/infuse4g/proprietary/libGLESv2_POWERVR_SGX540_120.so:system/vendor/lib/egl/libGLESv2_POWERVR_SGX540_120.so \
-    vendor/samsung/infuse4g/proprietary/gralloc.s5pc110.so:system/vendor/lib/hw/gralloc.aries.so \
     vendor/samsung/infuse4g/proprietary/sensors.SGH-I997R.so:system/vendor/lib/hw/sensors.aries.so \
     vendor/samsung/infuse4g/proprietary/libakm.so:system/vendor/lib/libakm.so \
-    vendor/samsung/infuse4g/proprietary/libglslcompiler.so:system/vendor/lib/libglslcompiler.so \
-    vendor/samsung/infuse4g/proprietary/libIMGegl.so:system/vendor/lib/libIMGegl.so \
-    vendor/samsung/infuse4g/proprietary/libpvr2d.so:system/vendor/lib/libpvr2d.so \
-    vendor/samsung/infuse4g/proprietary/libpvrANDROID_WSEGL.so:system/vendor/lib/libpvrANDROID_WSEGL.so \
-    vendor/samsung/infuse4g/proprietary/libPVRScopeServices.so:system/vendor/lib/libPVRScopeServices.so \
-    vendor/samsung/infuse4g/proprietary/libsrv_init.so:system/vendor/lib/libsrv_init.so \
-    vendor/samsung/infuse4g/proprietary/libsrv_um.so:system/vendor/lib/libsrv_um.so \
-    vendor/samsung/infuse4g/proprietary/libusc.so:system/vendor/lib/libusc.so \
     vendor/samsung/infuse4g/proprietary/libsensor_yamaha_test.so:system/vendor/lib/libsensor_yamaha_test.so 
 
 # All the blobs necessary for infuse4g
@@ -55,4 +41,21 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/infuse4g/proprietary/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/infuse4g/proprietary/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/infuse4g/proprietary/rild:system/bin/rild
+
+# aries-common for pvr
+PRODUCT_COPY_FILES += \
+    vendor/samsung/aries-common/proprietary/pvrsrvinit:system/vendor/bin/pvrsrvinit \
+    vendor/samsung/aries-common/proprietary/libGLES_android.so:system/lib/egl/libGLES_android.so \
+    vendor/samsung/aries-common/proprietary/libEGL_POWERVR_SGX540_120.so:system/vendor/lib/egl/libEGL_POWERVR_SGX540_120.so \
+    vendor/samsung/aries-common/proprietary/libGLESv1_CM_POWERVR_SGX540_120.so:system/vendor/lib/egl/libGLESv1_CM_POWERVR_SGX540_120.so \
+    vendor/samsung/aries-common/proprietary/libGLESv2_POWERVR_SGX540_120.so:system/vendor/lib/egl/libGLESv2_POWERVR_SGX540_120.so \
+    vendor/samsung/aries-common/proprietary/gralloc.aries.so:system/vendor/lib/hw/gralloc.aries.so \
+    vendor/samsung/aries-common/proprietary/libglslcompiler.so:system/vendor/lib/libglslcompiler.so \
+    vendor/samsung/aries-common/proprietary/libIMGegl.so:system/vendor/lib/libIMGegl.so \
+    vendor/samsung/aries-common/proprietary/libpvr2d.so:system/vendor/lib/libpvr2d.so \
+    vendor/samsung/aries-common/proprietary/libpvrANDROID_WSEGL.so:system/vendor/lib/libpvrANDROID_WSEGL.so \
+    vendor/samsung/aries-common/proprietary/libPVRScopeServices.so:system/vendor/lib/libPVRScopeServices.so \
+    vendor/samsung/aries-common/proprietary/libsrv_init.so:system/vendor/lib/libsrv_init.so \
+    vendor/samsung/aries-common/proprietary/libsrv_um.so:system/vendor/lib/libsrv_um.so \
+    vendor/samsung/aries-common/proprietary/libusc.so:system/vendor/lib/libusc.so \
 

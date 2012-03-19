@@ -71,4 +71,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/p1c/proprietary/media/chargingwarning_disconnected.qmg:system/media/chargingwarning_disconnected.qmg \
     vendor/samsung/p1c/proprietary/media/chargingwarning_temp.qmg:system/media/chargingwarning_temp.qmg \
     vendor/samsung/p1c/proprietary/media/usb_not_charging.qmg:system/media/usb_not_charging.qmg \
-    vendor/samsung/p1c/proprietary/bin/BCM4329B1_002.002.023.0534.0571.hcd:system/bin/BCM4329B1_002.002.023.0534.0571.hcd
+    vendor/samsung/p1c/proprietary/bin/BCM4329B1_002.002.023.0534.0571.hcd:system/bin/BCM4329B1_002.002.023.0534.0571.hcd \
+    vendor/samsung/p1c/proprietary/lib/libddc.so:system/lib/libddc.so \
+    vendor/samsung/p1c/proprietary/lib/libedid.so:system/lib/libedid.so \
+    vendor/samsung/p1c/proprietary/lib/lib_tvoutengine.so:system/lib/lib_tvoutengine.so \
+    vendor/samsung/p1c/proprietary/lib/libtvoutfimc.so:system/lib/libtvoutfimc.so \
+    vendor/samsung/p1c/proprietary/lib/libtvouthdmi.so:system/lib/libtvouthdmi.so \
+    vendor/samsung/p1c/proprietary/lib/libtvout_jni.so:system/lib/libtvout_jni.so \
+    vendor/samsung/p1c/proprietary/lib/libtvoutservice.so:system/lib/libtvoutservice.so \
+    vendor/samsung/p1c/proprietary/lib/libtvout.so:system/lib/libtvout.so \
+    vendor/samsung/p1c/proprietary/bin/tvoutserver:system/bin/tvoutserver

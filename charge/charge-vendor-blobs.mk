@@ -81,6 +81,20 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/charge/proprietary/vendor/firmware/bcm4329.hcd:system/vendor/firmware/bcm4329.hcd
 
 #
+# tvout
+#
+PRODUCT_COPY_FILES += \
+    vendor/samsung/charge/proprietary/bin/tvoutserver:system/bin/tvoutserver \
+    vendor/samsung/charge/proprietary/lib/libddc.so:system/lib/libddc.so \
+    vendor/samsung/charge/proprietary/lib/libedid.so:system/lib/libedid.so \
+    vendor/samsung/charge/proprietary/lib/lib_tvoutengine.so:system/lib/lib_tvoutengine.so \
+    vendor/samsung/charge/proprietary/lib/libtvoutfimc.so:system/lib/libtvoutfimc.so \
+    vendor/samsung/charge/proprietary/lib/libtvouthdmi.so:system/lib/libtvouthdmi.so \
+    vendor/samsung/charge/proprietary/lib/libtvoutservice.so:system/lib/libtvoutservice.so \
+    vendor/samsung/charge/proprietary/lib/libtvout_jni.so:system/lib/libtvout_jni.so \
+    vendor/samsung/charge/proprietary/lib/libtvout.so:system/lib/libtvout.so
+
+#
 # Files for battery charging screen
 #
 PRODUCT_COPY_FILES += \

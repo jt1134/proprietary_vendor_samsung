@@ -71,7 +71,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/p1c/proprietary/media/chargingwarning_disconnected.qmg:system/media/chargingwarning_disconnected.qmg \
     vendor/samsung/p1c/proprietary/media/chargingwarning_temp.qmg:system/media/chargingwarning_temp.qmg \
     vendor/samsung/p1c/proprietary/media/usb_not_charging.qmg:system/media/usb_not_charging.qmg \
-    vendor/samsung/p1c/proprietary/bin/BCM4329B1_002.002.023.0534.0571.hcd:system/bin/BCM4329B1_002.002.023.0534.0571.hcd \
+    vendor/samsung/p1c/proprietary/bin/BCM4329B1_002.002.023.0534.0590.hcd:system/bin/BCM4329B1_002.002.023.0534.0590.hcd \
     vendor/samsung/p1c/proprietary/lib/libddc.so:system/lib/libddc.so \
     vendor/samsung/p1c/proprietary/lib/libedid.so:system/lib/libedid.so \
     vendor/samsung/p1c/proprietary/lib/lib_tvoutengine.so:system/lib/lib_tvoutengine.so \

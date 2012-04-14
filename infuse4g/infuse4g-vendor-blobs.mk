@@ -42,6 +42,18 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/infuse4g/proprietary/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/infuse4g/proprietary/rild:system/bin/rild
 
+# tvout
+PRODUCT_COPY_FILES += \
+    vendor/samsung/infuse4g/proprietary/libddc.so:system/vendor/lib/libddc.so \
+    vendor/samsung/infuse4g/proprietary/libedid.so:system/vendor/lib/libedid.so \
+    vendor/samsung/infuse4g/proprietary/lib_tvoutengine.so:system/vendor/lib/lib_tvoutengine.so \
+    vendor/samsung/infuse4g/proprietary/libtvout.so:system/vendor/lib/libtvout.so \
+    vendor/samsung/infuse4g/proprietary/libtvout_jni.so:system/vendor/lib/libtvout_jni.so \
+    vendor/samsung/infuse4g/proprietary/libtvoutfimc.so:system/vendor/lib/libtvoutfimc.so \
+    vendor/samsung/infuse4g/proprietary/libtvouthdmi.so:system/vendor/lib/libtvouthdmi.so \
+    vendor/samsung/infuse4g/proprietary/libtvoutservice.so:system/vendor/lib/libtvoutservice.so \
+    vendor/samsung/infuse4g/proprietary/tvoutserver:system/vendor/bin/tvoutserver
+
 # aries-common for pvr
 PRODUCT_COPY_FILES += \
     vendor/samsung/aries-common/proprietary/pvrsrvinit:system/vendor/bin/pvrsrvinit \
@@ -57,5 +69,5 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/aries-common/proprietary/libPVRScopeServices.so:system/vendor/lib/libPVRScopeServices.so \
     vendor/samsung/aries-common/proprietary/libsrv_init.so:system/vendor/lib/libsrv_init.so \
     vendor/samsung/aries-common/proprietary/libsrv_um.so:system/vendor/lib/libsrv_um.so \
-    vendor/samsung/aries-common/proprietary/libusc.so:system/vendor/lib/libusc.so \
+    vendor/samsung/aries-common/proprietary/libusc.so:system/vendor/lib/libusc.so
 

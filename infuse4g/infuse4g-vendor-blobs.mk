@@ -24,7 +24,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/infuse4g/proprietary/bin/BCM4330B1_002.001.003.0043.0061.hcd:system/bin/BCM4330B1_002.001.003.0043.0061.hcd \
     vendor/samsung/infuse4g/proprietary/vendor/firmware/nvram_net.txt:system/vendor/firmware/nvram_net.txt \
     vendor/samsung/infuse4g/proprietary/vendor/firmware/melfas_touchkey.kcm.bin:system/vendor/firmware/melfas_touchkey.kcm.bin \
-    vendor/samsung/infuse4g/proprietary/vendor/lib/hw/sensors.aries.so:system/vendor/lib/hw/sensors.aries.so \
     vendor/samsung/infuse4g/proprietary/vendor/lib/libakm.so:system/vendor/lib/libakm.so \
     vendor/samsung/infuse4g/proprietary/vendor/lib/libsensor_yamaha_test.so:system/vendor/lib/libsensor_yamaha_test.so \
     vendor/samsung/infuse4g/proprietary/etc/gps.conf:system/etc/gps.conf \

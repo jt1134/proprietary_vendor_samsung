@@ -30,12 +30,13 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/expressatt/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
         vendor/samsung/expressatt/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
         vendor/samsung/expressatt/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
-        vendor/samsung/expressatt/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
+        vendor/samsung/expressatt/proprietary/lib/egl/libplayback_adreno200.so:system/lib/egl/libplayback_adreno200.so \
+        vendor/samsung/expressatt/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
         vendor/samsung/expressatt/proprietary/lib/libgsl.so:system/lib/libgsl.so \
+        vendor/samsung/expressatt/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
         vendor/samsung/expressatt/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
         vendor/samsung/expressatt/proprietary/lib/libOpenCL.so:system/lib/libOpenCL.so \
         vendor/samsung/expressatt/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
-        vendor/samsung/expressatt/proprietary/lib/libsc-a3xx.so:system/lib/libsc-a3xx.so \
         vendor/samsung/expressatt/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
         vendor/samsung/expressatt/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
         vendor/samsung/expressatt/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
@@ -44,14 +45,14 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/expressatt/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
         vendor/samsung/expressatt/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
         vendor/samsung/expressatt/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
+        vendor/samsung/expressatt/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
+        vendor/samsung/expressatt/proprietary/lib/libril.so:system/lib/libril.so \
         vendor/samsung/expressatt/proprietary/bin/netmgrd:system/bin/netmgrd \
         vendor/samsung/expressatt/proprietary/bin/sec-ril:system/bin/sec-ril \
         vendor/samsung/expressatt/proprietary/bin/qmiproxy:system/bin/qmiproxy \
         vendor/samsung/expressatt/proprietary/bin/qmuxd:system/bin/qmuxd \
         vendor/samsung/expressatt/proprietary/bin/rmt_storage:system/bin/rmt_storage \
         vendor/samsung/expressatt/proprietary/bin/rild:system/bin/rild \
-        vendor/samsung/expressatt/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
-        vendor/samsung/expressatt/proprietary/lib/libril.so:system/lib/libril.so \
         vendor/samsung/expressatt/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
         vendor/samsung/expressatt/proprietary/lib/libqmi.so:system/lib/libqmi.so \
         vendor/samsung/expressatt/proprietary/lib/libqdi.so:system/lib/libqdi.so \
@@ -72,9 +73,8 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/expressatt/proprietary/lib/libqmi_client_qmux.so:system/lib/libqmi_client_qmux.so \
         vendor/samsung/expressatt/proprietary/lib/libomission_avoidance.so:system/lib/libomission_avoidance.so \
         vendor/samsung/expressatt/proprietary/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
+        vendor/samsung/expressatt/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
         vendor/samsung/expressatt/proprietary/lib/hw/nfc.MSM8960.so:system/lib/hw/nfc.MSM8960.so \
-        vendor/samsung/expressatt/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
-        vendor/samsung/expressatt/proprietary/lib/libsensor_yamaha532_test.so:system/lib/libsensor_yamaha532_test.so \
         vendor/samsung/expressatt/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
         vendor/samsung/expressatt/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
         vendor/samsung/expressatt/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
@@ -100,7 +100,8 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/expressatt/proprietary/lib/libchromatix_s5k3l1yx_zsl.so:system/lib/libchromatix_s5k3l1yx_zsl.so \
         vendor/samsung/expressatt/proprietary/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
         vendor/samsung/expressatt/proprietary/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv \
-        vendor/samsung/expressatt/proprietary/lib/libdiag.so:system/lib/libdiag.so \
+        vendor/samsung/expressatt/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
+        vendor/samsung/expressatt/proprietary/lib/libsensor_yamaha532_test.so:system/lib/libsensor_yamaha532_test.so \
         vendor/samsung/expressatt/proprietary/bin/macloader:system/bin/macloader \
         vendor/samsung/expressatt/proprietary/etc/firmware/wcnss.b00:system/etc/firmware/wcnss.b00 \
         vendor/samsung/expressatt/proprietary/etc/firmware/wcnss.b01:system/etc/firmware/wcnss.b01 \
@@ -111,14 +112,5 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/expressatt/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
         vendor/samsung/expressatt/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini:system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini \
         vendor/samsung/expressatt/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
-        vendor/samsung/expressatt/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
-        vendor/samsung/expressatt/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
-        vendor/samsung/expressatt/proprietary/lib/hw/copybit.msm8960.so:system/lib/hw/copybit.msm8960.so \
-        vendor/samsung/expressatt/proprietary/lib/hw/gralloc.msm8960.so:system/lib/hw/gralloc.msm8960.so \
-        vendor/samsung/expressatt/proprietary/lib/hw/hwcomposer.msm8960.so:system/lib/hw/hwcomposer.msm8960.so \
-        vendor/samsung/expressatt/proprietary/lib/libgenlock.so:system/lib/libgenlock.so \
-        vendor/samsung/expressatt/proprietary/lib/libhwcexternal.so:system/lib/libhwcexternal.so \
-        vendor/samsung/expressatt/proprietary/lib/libhwcservice.so:system/lib/libhwcservice.so \
-        vendor/samsung/expressatt/proprietary/lib/libmemalloc.so:system/lib/libmemalloc.so \
-        vendor/samsung/expressatt/proprietary/lib/liboverlay.so:system/lib/liboverlay.so \
-        vendor/samsung/expressatt/proprietary/lib/libqdutils.so:system/lib/libqdutils.so
+        vendor/samsung/expressatt/proprietary/lib/libdiag.so:system/lib/libdiag.so \
+        vendor/samsung/expressatt/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so

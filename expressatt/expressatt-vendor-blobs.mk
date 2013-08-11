@@ -113,5 +113,7 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/expressatt/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
         vendor/samsung/expressatt/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini:system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini \
         vendor/samsung/expressatt/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
+        vendor/samsung/expressatt/proprietary/bin/btnvtool:system/bin/btnvtool \
+        vendor/samsung/expressatt/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
         vendor/samsung/expressatt/proprietary/lib/libdiag.so:system/lib/libdiag.so \
         vendor/samsung/expressatt/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so

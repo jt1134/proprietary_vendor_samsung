@@ -101,6 +101,8 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/expressatt/proprietary/lib/libchromatix_s5k3l1yx_zsl.so:system/lib/libchromatix_s5k3l1yx_zsl.so \
         vendor/samsung/expressatt/proprietary/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
         vendor/samsung/expressatt/proprietary/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv \
+        vendor/samsung/expressatt/proprietary/bin/geomagneticd:system/bin/geomagneticd \
+        vendor/samsung/expressatt/proprietary/bin/orientationd:system/bin/orientationd \
         vendor/samsung/expressatt/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
         vendor/samsung/expressatt/proprietary/lib/libsensor_yamaha532_test.so:system/lib/libsensor_yamaha532_test.so \
         vendor/samsung/expressatt/proprietary/bin/macloader:system/bin/macloader \
